@@ -2,8 +2,8 @@
 #pragma once
 #include <string>
 enum class TokenType {
-    SELECT, FROM, WHERE, OR, IDENTIFIER, NUMBER,
-    GT, LT, LPAREN, RPAREN, END
+    SELECT, FROM, WHERE, OR, AND, IDENTIFIER, NUMBER,
+    GT, LT, GTE, LTE, EQ, NEQ, LPAREN, RPAREN, END
 };
 struct Token {
     TokenType type;

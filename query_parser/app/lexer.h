@@ -6,7 +6,6 @@
 //      >
 //   18    15
 
-// ------------------- AST -------------------
 class Lexer {
 public:
     explicit Lexer(std::string sql);
